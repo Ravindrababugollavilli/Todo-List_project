@@ -1,0 +1,96 @@
+.todos-bg-container {
+  
+  height: 100vh;
+  padding: 20px;
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg");
+  background-size: cover;
+ 
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4e7eb;
+  border-radius: 10px;
+  margin-top: 10px;
+  
+}
+
+.todos-heading {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.create-task-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.create-task-heading-subpart {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.todo-user-input {
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.todo-items-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.todo-items-heading-subpart {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.todo-items-container {
+  list-style-type: none;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  color: red;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.delete-button:hover {
+  color: darkred;
+}
+
+.todo-item {
+  background-color: #e6f6ff;
+  border-left: 5px solid #0056b3;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 0 5px 5px 0;
+  position: relative;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+
+
